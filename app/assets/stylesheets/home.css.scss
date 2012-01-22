@@ -1,0 +1,27 @@
+html, body{
+ // width: 100%;
+ // height: 100%;
+  background: #eee9e9;
+}
+
+#tux {
+  height: 750px;  
+  //display: block;
+  margin-left: 8%;
+  margin-right: auto;
+  vertical-align: -80%;
+  float: left;
+}
+
+#text_box {
+  margin-top: 10px;
+}
+
+#hello_world {
+  font-family: 'Bevan', serif;
+  font-size: 4em;
+}
+
+#text_below {
+  font-size: 2em;
+}
