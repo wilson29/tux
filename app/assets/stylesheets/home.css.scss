@@ -5,34 +5,32 @@ html, body{
 }
 
 body{
-   background-color: #ccc
+   background-color: #cdc0b0;
 }
 #container {
  width: 80%;
- max-width: 1000px;
+ max-width: 1100px;
  background: #eee9e9;
  margin: 0 auto; 
 }
 
 #tux {
   height: 750px;  
-  margin-left: 8%;
-  margin-right: auto;
   vertical-align: -80%;
   float: left;
 }
 
-#text_box {
-  margin-top: 10px;
-}
 
 #hello_world {
   font-family: 'Bevan', serif;
   font-size: 4em;
+  margin-right: 25px;
 }
 
-#text_below {
-  font-size: 2em;
+#intro {
+  margin-right: 25px;
+  font-family: 'Esteban', serif;
+  font-size:1.5em;
 }
 
 #home_page {
@@ -45,4 +43,8 @@ body{
 
 #project {
   height: 1000px;
+}
+
+.nav {
+  list-style: none;
 }
