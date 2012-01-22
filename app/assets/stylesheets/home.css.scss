@@ -1,12 +1,21 @@
 html, body{
- // width: 100%;
- // height: 100%;
-  background: #eee9e9;
+ margin: 0;
+ padding: 0;
+ border: 0;
+}
+
+body{
+   background-color: #ccc
+}
+#container {
+ width: 80%;
+ max-width: 1000px;
+ background: #eee9e9;
+ margin: 0 auto; 
 }
 
 #tux {
   height: 750px;  
-  //display: block;
   margin-left: 8%;
   margin-right: auto;
   vertical-align: -80%;
