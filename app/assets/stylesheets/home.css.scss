@@ -35,7 +35,7 @@ body{
 
 
 
-#intro {
+.blurb {
   margin-right: 25px;
   font-family: 'Esteban', serif;
   font-size:1.5em;
@@ -55,12 +55,31 @@ body{
 
 .nav {
   list-style: none;
+  font-family: 'Esteban', serif;
+  font-size:1.5em;
 }
 
 
-a.links:link {color: none}
-a.links:visited {color:green}
-a.links:active {text-decoration: none}
-a.links:hover {text-decoration:none}
+a.links:link {
+  color: black;
+  text-decoration: none;
+}
 
+a.links:visited {
+  color:black;
+  text-decoration: none;
+}
 
+a.links:active {
+  color:black;
+  text-decoration: none;
+}
+
+a.links:hover {
+  color:green;
+  text-decoration: none;
+}
+
+.links {
+  font-family: 'Bevan', serif;
+}

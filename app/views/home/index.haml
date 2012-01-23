@@ -11,19 +11,18 @@
     <br>
     <br>
     <br>
-    <br>
     %div.headers
       Hello World.
-    %div#intro
-      My name is Scott Wilson, I am a computer engineering student at the University of Illinois.
+    %div.blurb
+      My name is Scott Wilson. Currently, I am in my third year as a computer engineering student 
+      at the University of Illinois.
     <br>
     <br>
     %ul.nav
       %li
-        %a.links{:href => '#about_me'} About Me
+        %a.links{:href => '#about_me'} > About Me
         <br>
-        %a.links{:href => '#projects'} Projects
-    <br>
+        %a.links{:href => '#projects'} > Projects
     <br>
     <br>
     <br>  
@@ -39,7 +38,9 @@
     <br>    
     %div.headers
       Scott Wilson.
-    Aww yeah, about me yeah!
+    %div.blurb
+      This past summer, I worked as an intern at Intel developing tools to validate highly paralell
+      processors.
   %div#projects
     PROJECTS
 
