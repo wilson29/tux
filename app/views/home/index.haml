@@ -5,24 +5,24 @@
   =javascript_include_tag("scrolling.js")
 %div#container
   %div#home_page
-    =image_tag("tux.svg", {:id => "tux"})
+    =image_tag("tux.svg", {:id => "tux",})
     <br>  
     <br>
     <br>
     <br>
     <br>
     <br>
-    %div#hello_world
+    %div.headers
       Hello World.
     %div#intro
-      My name is Scott Wilson, I am a computer engineeringing student who loves to code. 
+      My name is Scott Wilson, I am a computer engineering student at the University of Illinois.
     <br>
     <br>
     %ul.nav
       %li
-        %a{:href => '#about_me'} About Me
+        %a.links{:href => '#about_me'} About Me
         <br>
-        %a{:href => '#projects'} Projects
+        %a.links{:href => '#projects'} Projects
     <br>
     <br>
     <br>
@@ -30,6 +30,15 @@
     <br>
     <br>
   %div#about_me
+    =image_tag("profile.jpg", {:id => "profile"})
+    <br>  
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>    
+    %div.headers
+      Scott Wilson.
     Aww yeah, about me yeah!
   %div#projects
     PROJECTS

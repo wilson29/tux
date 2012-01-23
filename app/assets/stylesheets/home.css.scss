@@ -14,18 +14,26 @@ body{
  margin: 0 auto; 
 }
 
-#tux {
+#tux  {
   height: 750px;  
   vertical-align: -80%;
   float: left;
 }
 
+#profile {
+  height: 650px;  
+  vertical-align: -80%;
+  float: left;
+  margin-left: 30px;
+}
 
-#hello_world {
+.headers {
   font-family: 'Bevan', serif;
   font-size: 4em;
   margin-right: 25px;
 }
+
+
 
 #intro {
   margin-right: 25px;
@@ -48,3 +56,11 @@ body{
 .nav {
   list-style: none;
 }
+
+
+a.links:link {color: none}
+a.links:visited {color:green}
+a.links:active {text-decoration: none}
+a.links:hover {text-decoration:none}
+
+
