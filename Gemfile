@@ -5,7 +5,7 @@ gem 'rails', '3.1.1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+gem 'sqlite3'
 
 
 # Gems used only for assets and not required
@@ -33,4 +33,10 @@ gem 'haml'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
+
+group :production do
+  # gems specifically for Heroku go here
+  gem "pg"
+end
+
 end
