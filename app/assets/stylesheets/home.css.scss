@@ -2,34 +2,58 @@ html, body{
  margin: 0;
  padding: 0;
  border: 0;
+
 }
 
 body{
    background-color: #cdc0b0;
+   min-width: 1100px; //should this be here?
 }
+
 #container {
  width: 80%;
- max-width: 1100px;
+ max-width: 980px;
  background: #eee9e9;
  margin: 0 auto; 
 }
 
-#tux  {
-  height: 750px;  
-  vertical-align: -80%;
+.big_pics {
+  width: 50%;
+  height: auto;
   float: left;
 }
 
-#profile {
-  height: 650px;  
-  vertical-align: -80%;
-  float: left;
-  margin-left: 30px;
+
+.info_text {
+  width: 40%;
+  float: right;
+
 }
+
+.page {
+  width: 100%;
+  
+}
+
+
+//#tux  {
+ // height: 750px;  
+ // vertical-align: -80%;
+  //height: auto;  
+ // float: left;
+ // width: 50%;
+//}
+
+//#profile {
+//  height: 650px;  
+//  vertical-align: -80%;
+ // margin-left: 30px;
+//}
+
 
 .headers {
   font-family: 'Bevan', serif;
-  font-size: 4em;
+  font-size: 3em;
   margin-right: 25px;
 }
 
@@ -41,22 +65,25 @@ body{
   font-size:1.5em;
 }
 
+
+
 #home_page {
-  height: 1000px;
+  height: 1200px;
 }
 
 #about_me {
-  height: 1000px;
+  height: 1200px;
 }
 
 #project {
-  height: 1000px;
+  height: 1200px;
 }
 
 .nav {
   list-style: none;
   font-family: 'Esteban', serif;
   font-size:1.5em;
+  
 }
 
 
@@ -82,4 +109,16 @@ a.links:hover {
 
 .links {
   font-family: 'Bevan', serif;
+}
+
+.nav
+{
+margin: 0;
+padding: 0;
+}
+
+.nav_li
+{
+margin: 0;
+padding: 0;
 }
