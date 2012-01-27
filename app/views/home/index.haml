@@ -23,9 +23,10 @@
       %ul.nav
         %li.nav_li  
           %a.links{:href => '#about_me'} > About Me
-
-
-
+        %li.nav_li
+          %a.links{:href => '#projects'} > Projects
+        %li.nav_li
+          %a.links{:href => '#contact'} > Contact Me
 
 
 
@@ -56,5 +57,69 @@
       %ul.nav
         %li.nav_li
           %a.links{:href => '#home_page'} > Home
+        %li.nav_li
+          %a.links{:href => '#projects'} > Projects
+        %li.nav_li
+          %a.links{:href => '#contact'} > Contact Me
 
+
+
+
+
+
+
+  %div#projects.page
+    <br>
+    <br>
+    <br>
+    <br>     
+    =image_tag("meditate.png", {:id => "projects_pic", :class => "big_pics"}) 
+    <br>
+    <br>    
+    <br>   
+    %div.info_text         
+      %div.headers 
+        Projects
+      %div.blurb
+        Classwhole.com   
+        <br>     
+        <br>      
+        Operating system modeled after Linux.
+        <br>
+        <br>
+      %ul.nav
+        %li.nav_li
+          %a.links{:href => '#home_page'} > Home
+        %li.nav_li  
+          %a.links{:href => '#about_me'} > About Me
+        %li.nav_li
+          %a.links{:href => '#contact'} > Contact Me
+
+
+
+
+
+  %div#contact.page
+    <br>
+    <br>
+    <br>
+    <br>     
+    =image_tag("rails.png", {:id => "contact_pic", :class => "big_pics"}) 
+    <br>
+    <br>    
+    <br>   
+    %div.info_text         
+      %div.headers 
+        Contact Me
+      %div.blurb
+        E-mail   
+        <br>     
+        <br>      
+      %ul.nav
+        %li.nav_li
+          %a.links{:href => '#home_page'} > Home
+        %li.nav_li  
+          %a.links{:href => '#about_me'} > About Me
+        %li.nav_li
+          %a.links{:href => '#projects'} > Projects
 

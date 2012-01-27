@@ -1,1 +1,0 @@
-$(function(){$("ul.nav a").bind("click",function(a){var b=$(this);$("html, body").stop().animate({scrollTop:$(b.attr("href")).offset().top},1500,"easeInOutExpo"),a.preventDefault()})})

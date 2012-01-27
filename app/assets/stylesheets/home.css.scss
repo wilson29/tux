@@ -23,28 +23,21 @@ body{
   float: left;
 }
 
-
-.info_text {
-  width: 40%;
-  float: right;
-
+#projects_pic {
+  position: relative; 
+	top: 2em;
 }
 
 
 
-//#tux  {
- // height: 750px;  
- // vertical-align: -80%;
-  //height: auto;  
- // float: left;
- // width: 50%;
-//}
+.info_text {
+  width: 40%;
+  float: right;
+}
 
-//#profile {
-//  height: 650px;  
-//  vertical-align: -80%;
- // margin-left: 30px;
-//}
+
+
+
 
 
 .headers {
