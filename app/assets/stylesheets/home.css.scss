@@ -2,7 +2,7 @@ html, body{
  margin: 0;
  padding: 0;
  border: 0;
-
+ overflow: hidden;
 }
 
 body{
@@ -30,10 +30,6 @@ body{
 
 }
 
-.page {
-  width: 100%;
-  
-}
 
 
 //#tux  {
@@ -65,18 +61,21 @@ body{
   font-size:1.5em;
 }
 
-
+.page {
+  height: 1600px;  
+  width: 100%;
+}
 
 #home_page {
-  height: 1200px;
+
 }
 
 #about_me {
-  height: 1200px;
+
 }
 
 #project {
-  height: 1200px;
+  
 }
 
 .nav {
