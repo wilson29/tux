@@ -5,7 +5,6 @@
   =javascript_include_tag("scrolling.js")
 %div#container
   %div#home_page.page
-    <br>    
     <br>
     <br>
     =image_tag("tux.png", {:id => "tux", :class => "big_pics"})
@@ -36,8 +35,6 @@
 
 
   %div#about_me.page
-    <br>
-    <br>
     <br>
     <br>     
     =image_tag("cropped_profile.gif", {:id => "profile", :class => "big_pics"}) 
@@ -73,8 +70,6 @@
 
   %div#projects.page
     <br>
-    <br>
-    <br>
     <br>     
     =image_tag("meditate.png", {:id => "projects_pic", :class => "big_pics"}) 
     <br>
@@ -84,10 +79,15 @@
       %div.headers 
         Projects
       %div.blurb
-        Classwhole.com   
+        Currently, I spend most of my time working on
+        =link_to("Classwhole.com", "http://www.classwhole.com", {:id => "classwhole_link"})         
+        <br>
+        Classwhole is an awesome tool that allows students at UIUC to create the perfect schedule. In the future, it will be
+        adapted to other universities. This website has won two Google development competitions.
         <br>     
         <br>      
-        Operating system modeled after Linux.
+        Some past projects have been creating an operating system modeled after linux, an advanced voice-recorder android app, and many more finished and half-finished
+        endeavors.
         <br>
         <br>
       %ul.nav
@@ -104,8 +104,6 @@
 
   %div#contact.page
     <br>
-    <br>
-    <br>
     <br>     
     =image_tag("mail.png", {:id => "contact_pic", :class => "big_pics"}) 
     <br>
@@ -115,7 +113,7 @@
       %div.headers 
         Contact Me
       %div.blurb
-        E-mail   
+        =mail_to("wilson29@illinois.edu")   
         <br>     
         <br>      
       %ul.nav
