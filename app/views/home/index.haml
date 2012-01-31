@@ -37,7 +37,7 @@
   %div#about_me.page
     <br>
     <br>     
-    =image_tag("cropped_profile.gif", {:id => "profile", :class => "big_pics"}) 
+    =image_tag("profile.jpg", {:id => "profile_pic", :class => "big_pics"}) 
     <br>
     <br>    
     <br>   
@@ -71,7 +71,10 @@
   %div#projects.page
     <br>
     <br>     
-    =image_tag("meditate.png", {:id => "projects_pic", :class => "big_pics"}) 
+    %div.pic
+      =image_tag("meditate.png", {:id => "projects_pic", :class => "big_pics"}) 
+      %span.copyright      
+        Copyright (C) 2001, 2004 Free Software Foundation
     <br>
     <br>    
     <br>   
@@ -79,11 +82,8 @@
       %div.headers 
         Projects
       %div.blurb
-        Currently, I am working on
         =link_to("Classwhole.com", "http://www.classwhole.com", {:id => "classwhole_link"})         
-        <br>
-        Classwhole is an awesome tool that allows students to create their ideal class schedule using by employing of unique features and by integrating facebook. 
-        This website has won two Google development competitions.
+        is an awesome tool that allows UIUC students to create the perfect schedule using unique tools and by integrating with Facebook.
         <br>     
         <br>      
         Some past projects have been creating an operating system modeled after linux, an advanced voice-recorder android app, and many more finished and half-finished
@@ -105,7 +105,10 @@
   %div#contact.page
     <br>
     <br>     
-    =image_tag("mail.png", {:id => "contact_pic", :class => "big_pics"}) 
+    %div.pic
+      =image_tag("mail.png", {:id => "contact_pic"}) 
+      %span.copyright      
+        © Nevit Dilmen  
     <br>
     <br>    
     <br>   

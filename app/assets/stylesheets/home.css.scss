@@ -24,14 +24,11 @@ body{
 }
 
 #projects_pic {
-  position: relative; 
-	top: 3em;
+  width: 100%;
+  height: auto;;
 }
 
-#contact_pic {
-  position: relative; 
-	top: 3em;
-}
+
 
 
 .info_text {
@@ -123,4 +120,29 @@ padding: 0;
   text-decoration: none;
 }
 
+
+
+.pic {
+  width: 50%;
+  height: auto;
+  float: left;
+  position: relative; 
+	top: 3em;
+}
+
+
+
+#contact_pic {
+  width: 100%;
+  height: auto;
+}
+
+.copyright{
+  font-size: 0.6em;
+}
+
+#profile_pic {
+  position: relative;
+  top: 3em;
+}
 
